@@ -14,7 +14,12 @@ public class Main {
         factorX.moon="4";
         factorX.planet="2";
         factorX.stars="1000";
-        
+
+        // adding feature to our sun
+        FeatureSun xFact = new FeatureSun();
+        xFact.color="green";
+        xFact.radius= "100000km";
+        xFact.heat = "234324234324kj";
 
     }
 }
